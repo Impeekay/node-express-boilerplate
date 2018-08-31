@@ -1,0 +1,21 @@
+{
+  "name": "Node-Express-Boilerplate",
+  "version": "1.0.0",
+  "description": "Node-Express-Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js > ./log/app.log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0"
+  }
+}
